@@ -1,0 +1,129 @@
+.content-header-role {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FF7506;
+  margin-bottom: 0;
+}
+
+.role-col-left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+}
+
+.label-input {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #282739;
+}
+
+.input-role {
+  padding: 10px 270px 10px 12px;
+  gap: 10px;
+  max-width: 560px;
+  height: 44px;
+  background: #ffffff;
+  border: 1.5px solid #d4d4d7;
+  border-radius: 8px;
+}
+
+.input-role:focus {
+  outline: 1px solid #ff7506;
+}
+
+.input-role-des {
+  float: top;
+  padding: 10px 0 10px 12px;
+  gap: 10px;
+  max-width: 560px;
+  height: 160px;
+  background: #ffffff;
+  border: 1.5px solid #d4d4d7;
+  border-radius: 8px;
+}
+
+.input-role-des:focus {
+  outline: 1px solid #ff7506;
+}
+
+.input-role-des::-webkit-input-placeholder {
+  position: absolute;
+  top: 10;
+}
+
+.check-form {
+  margin-top: 8px;
+  width: 560px;
+  height: 420px;
+  background: #fff2e7;
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+
+.label-checked-content-A {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff7506;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
+
+.label-checked-content-B {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff7506;
+  margin-bottom: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.input-check {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.input-check label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #535261;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 8px;
+}
+
+.btn-wrap-role {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.noti-add {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ff7506;
+}

@@ -1,0 +1,130 @@
+.forgot-pass-page {
+  width: 100%;
+  height: 100%;
+}
+
+.forgot-col-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f7f7f7;
+  padding-top: 62px;
+}
+
+.repass-box {
+  padding-top: 102px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.repass-box p:first-child {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: #282739;
+  margin-bottom: 16px;
+}
+
+.repass-box p:nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #37474f;
+  margin-bottom: 4px;
+}
+
+.input-repass {
+  float: top;
+  padding: 10px 0 10px 12px;
+  gap: 10px;
+  width: 400px;
+  height: 44px;
+  background: #ffffff;
+  border: 1.5px solid #d4d4d7;
+  border-radius: 8px;
+}
+
+.input-repass:focus {
+  outline: 1px solid #ff7506;
+}
+
+.continue-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 162px;
+  height: 40px;
+  background: #ff9138;
+  box-shadow: 0px 0px 6px #e7e9f2;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-left: 32px;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 162px;
+  height: 40px;
+  background: transparent;
+  border: 1.5px solid #ff9138;
+  box-shadow: 0px 0px 6px #e7e9f2;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ff9138;
+  cursor: pointer;
+}
+
+.repass-col-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noti-error {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #e73f3f;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.repass-input-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.repass-input-wrap label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #37474f;
+  margin-bottom: 4px;
+}
+
+.input-pass-icon {
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  cursor: pointer;
+}

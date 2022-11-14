@@ -1,0 +1,94 @@
+.location-box {
+  display: flex;
+  align-items: center;
+  margin-top: 29px;
+}
+
+.location-box p {
+  margin-bottom: 0;
+}
+
+.location-box p:nth-child(1) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #7e7d88;
+}
+
+.location-icon {
+  font-size: 10px;
+  font-weight: 700;
+  color: #7e7d88;
+  margin: 0 15px;
+}
+
+.device-box {
+  margin-left: 24px;
+}
+
+.device-content {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ff7506;
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+
+.filter-content {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #282739;
+  margin-bottom: 4px;
+}
+
+.text-long {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  margin-bottom: 0;
+  max-width: 178px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #535261;
+}
+
+.table-link-wrap {
+  position: relative;
+}
+
+.table-link-hover {
+  position: absolute;
+  z-index: 1;
+  background-color: #ff7506;
+  width: 400px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 0;
+  display: none;
+  transition: 2s linear;
+
+}
+
+.table-link-hover p {
+  margin-bottom: 0;
+}
+
+.table-link:hover + .table-link-hover {
+  display: block;
+  transition: 2s linear;
+
+}

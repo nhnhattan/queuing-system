@@ -1,0 +1,140 @@
+.queuing-add-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ff7506;
+  margin-bottom: 20px;
+}
+
+.queuing-add-tips {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #535261;
+  margin-bottom: 12px;
+}
+
+.modal-overlay {
+  background-color: rgba(88, 88, 88, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 1240px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 469px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.modal-header {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal-header h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #535261;
+  margin-bottom: 24px;
+}
+
+.modal-header h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 60px;
+  color: #ff7506;
+  margin-bottom: 24px;
+}
+
+.modal-box-queuing-content {
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #282739;
+}
+
+.location-queuing-content {
+  font-weight: 700;
+
+}
+
+.modal-footer {
+  background: #ff9138;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-footer-content p:first-child {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-right: 8px;
+}
+
+.modal-footer-content p:last-child {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  cursor: pointer;
+}
+
+.close-icon {
+  color: #ff9138;
+  font-size: 24px;
+}
+
+.wait-load-content {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #34CD26;
+margin-bottom: 0;
+margin-top: 8px;
+}

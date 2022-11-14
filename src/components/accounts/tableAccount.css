@@ -1,0 +1,121 @@
+.content-table {
+    border-collapse: collapse;
+    min-width: 400px;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    filter: drop-shadow(2px 2px 8px rgba(232, 239, 244, 0.8));
+    border-radius: 12px;
+    background: #ffffff;
+    width: 100%;
+  }
+  
+  .content-table thead tr {
+    background-color: #ff9138;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table thead {
+    height: 50px;
+  }
+  
+  .content-table th {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 8px 12px 8px;
+    border: solid 1px #fff2e7;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #535261;
+  }
+  
+  .status-wrap-table {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #fff2e7;
+  }
+  
+  .content-table tbody tr td:nth-child(1) {
+    padding-left: 18px;
+  }
+  
+  .content-table thead tr th:nth-child(1) {
+    padding-left: 16px;
+    width: 150px;
+  }
+  
+  .content-table thead tr th:nth-child(2) {
+    width: 166px;
+  }
+  
+  .content-table thead tr th:nth-child(3) {
+    width: 130px;
+  }
+  
+  .content-table thead tr th:nth-child(4) {
+    width: 255px;
+  }
+  
+  .content-table thead tr th:nth-child(5) {
+    width: 114px;
+  }
+  
+  .content-table thead tr th:nth-child(6) {
+    width: 193px;
+  }
+  
+  .content-table thead tr th:nth-child(7) {
+    width: 99px;
+  }
+  
+  
+  .content-table tbody tr td:nth-child(7) {
+    text-align: center;
+  }
+  
+  .status-dot-active {
+    color: #34cd26;
+    font-size: 16px;
+    margin-right: 4px;
+  }
+  
+  .status-dot-notActive {
+    color: #ec3740;
+    font-size: 16px;
+    margin-right: 4px;
+  }
+  
+  .table-link {
+    color: #4277ff;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  .table-link:hover {
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  

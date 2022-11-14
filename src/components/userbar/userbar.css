@@ -1,0 +1,86 @@
+.noti-user-box {
+  min-width: 360px;
+  height: 526px;
+  background: #ffffff;
+  box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  position: absolute;
+  top: 85px;
+  left: -20px;
+  z-index: 10;
+}
+
+.noti-user-box-header {
+  width: 360px;
+  height: 48px;
+  background: #ff9138;
+  position: fixed;
+  z-index: 2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.noti-user-box-body {
+  max-width: 478px;
+  margin-top: 48px;
+}
+
+#scroll-noti::-webkit-scrollbar-thumb {
+  border-radius: 43px;
+  background-color: #ffc89b;
+  position: absolute;
+  right: -20px;
+}
+
+#scroll-noti::-webkit-scrollbar {
+  width: 4px;
+  background-color: #f5f5f5;
+}
+
+.noti-user-box-item {
+  padding: 16px 20px 12px 24px;
+  position: relative;
+}
+
+.noti-user-box-item:hover {
+  background: #fff2e7;
+  cursor: pointer;
+  zoom: 1.007;
+}
+
+.noti-user-box-item::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #d4d4d7;
+  opacity: 0.6;
+  height: 0.5px;
+  width: 90%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.noti-user-box-list {
+  list-style: none;
+}
+
+.noti-user-box-list p:first-child {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bf5805;
+  margin-bottom: 4px;
+}
+
+.noti-user-box-list p:last-child {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #535261;
+  margin-bottom: 0;
+}
